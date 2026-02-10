@@ -171,7 +171,18 @@ Capability Viewpoint Taxonomy (CV-2)
 
 **Diagram 1**:
 
-![Diagram 1 from page 2](docs/images/page_2_diagram_1.png)
+
+**Diagram Description**: Capability Viewpoint Taxonomy (CV-2): Hierarchical tree showing TERA Memo capabilities including auto-population, AI integration, and BIP platform services
+
+![Capability Viewpoint Taxonomy (CV-2): Hierarchical tree showing TERA Memo capabilities including auto-population, AI integration, and BIP platform services](docs/images/page_2_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -202,11 +213,33 @@ TERA Automation utilizes algorithms to provide recommended decisions to support 
 
 **Diagram 1**:
 
-![Diagram 1 from page 3](docs/images/page_3_diagram_1.png)
+
+**Diagram Description**: VSR Workflow Diagram: Complete user journey showing 14 steps from opening VBMS to submitting TERA Memo, including auto-populate decision point, evidence review, and validation
+
+![VSR Workflow Diagram: Complete user journey showing 14 steps from opening VBMS to submitting TERA Memo, including auto-populate decision point, evidence review, and validation](docs/images/page_3_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 **Diagram 2**:
 
-![Diagram 2 from page 3](docs/images/page_3_diagram_2.png)
+
+**Diagram Description**: User Interface Components: Wireframe showing form layout with auto-populate button, confidence score badges, evidence links, and manual review certification checkbox
+
+![User Interface Components: Wireframe showing form layout with auto-populate button, confidence score badges, evidence links, and manual review certification checkbox](docs/images/page_3_diagram_2.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -269,7 +302,18 @@ Usage
 
 **Diagram 1**:
 
-![Diagram 1 from page 4](docs/images/page_4_diagram_1.png)
+
+**Diagram Description**: AI Model Pipeline: Three-stage process showing Input (claim evidence, ILER, PACT Act SOP), Model (AWS SageMaker processing with NLP), and Output (recommendations with confidence scores and evidence links)
+
+![AI Model Pipeline: Three-stage process showing Input (claim evidence, ILER, PACT Act SOP), Model (AWS SageMaker processing with NLP), and Output (recommendations with confidence scores and evidence links)](docs/images/page_4_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -480,7 +524,18 @@ Core Database
 
 **Diagram 1**:
 
-![Diagram 1 from page 7](docs/images/page_7_diagram_1.png)
+
+**Diagram Description**: High-Level Operational View (OV-1): System context diagram with TERA components (white boxes) including UI and API, integrated with existing VBMS components (gray boxes) like Claims Evidence API, DocGen, and AWS SageMaker
+
+![High-Level Operational View (OV-1): System context diagram with TERA components (white boxes) including UI and API, integrated with existing VBMS components (gray boxes) like Claims Evidence API, DocGen, and AWS SageMaker](docs/images/page_7_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -532,7 +587,18 @@ appropriate.
 
 **Diagram 1**:
 
-![Diagram 1 from page 8](docs/images/page_8_diagram_1.png)
+
+**Diagram Description**: Operational Resource Flow (OV-2): Data flow showing interactions between 7 systems - SageMaker querying OpenSearch, Claims API pulling from VBMS DB, UI accessing evidence, and DocGen uploading to eFolder
+
+![Operational Resource Flow (OV-2): Data flow showing interactions between 7 systems - SageMaker querying OpenSearch, Claims API pulling from VBMS DB, UI accessing evidence, and DocGen uploading to eFolder](docs/images/page_8_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -611,7 +677,18 @@ APIs
 
 **Diagram 1**:
 
-![Diagram 1 from page 9](docs/images/page_9_diagram_1.png)
+
+**Diagram Description**: Systems Interface Description (SV-1): UML component diagram using lollipop notation showing TERA Memo UI (CPUI #3028) with required interfaces to Claims Evidence, Claims, ILER, Veteran, and DocGen APIs, all via HTTPS port 443
+
+![Systems Interface Description (SV-1): UML component diagram using lollipop notation showing TERA Memo UI (CPUI #3028) with required interfaces to Claims Evidence, Claims, ILER, Veteran, and DocGen APIs, all via HTTPS port 443](docs/images/page_9_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -660,7 +737,18 @@ specification of a connection between Services, showing specific resource operat
 
 **Diagram 1**:
 
-![Diagram 1 from page 10](docs/images/page_10_diagram_1.png)
+
+**Diagram Description**: Services Context (SvcV-1): Service composition showing API operations - Claims Evidence API (get recommendations, annotations, write metrics), DocGen API (generate PDF, upload), Claims API (get claims), ILER API (get exposure records)
+
+![Services Context (SvcV-1): Service composition showing API operations - Claims Evidence API (get recommendations, annotations, write metrics), DocGen API (generate PDF, upload), Claims API (get claims), ILER API (get exposure records)](docs/images/page_10_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -765,11 +853,33 @@ Logical Data Viewpoint Model (DIV-2)
 
 **Diagram 1**:
 
-![Diagram 1 from page 12](docs/images/page_12_diagram_1.png)
+
+**Diagram Description**: Conceptual Data Model (DIV-1): Entity-Relationship Diagram with 5 entities - TERA_MEMO, TERA_QUESTION_ANSWER, EVIDENCE_LINK, OCR_TEXTRACT_DATA, TERA_RECOMMENDATION - showing 1:N relationships
+
+![Conceptual Data Model (DIV-1): Entity-Relationship Diagram with 5 entities - TERA_MEMO, TERA_QUESTION_ANSWER, EVIDENCE_LINK, OCR_TEXTRACT_DATA, TERA_RECOMMENDATION - showing 1:N relationships](docs/images/page_12_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 **Diagram 2**:
 
-![Diagram 2 from page 12](docs/images/page_12_diagram_2.png)
+
+**Diagram Description**: Logical Data Flow: Six-stage flow from Document Upload → OCR Processing → OpenSearch Indexing → AI Model Execution → UI Retrieval → Submission with PDF generation
+
+![Logical Data Flow: Six-stage flow from Document Upload → OCR Processing → OpenSearch Indexing → AI Model Execution → UI Retrieval → Submission with PDF generation](docs/images/page_12_diagram_2.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -784,7 +894,18 @@ Physical Data Viewpoint Model (DIV-3)
 
 **Diagram 1**:
 
-![Diagram 1 from page 13](docs/images/page_13_diagram_1.png)
+
+**Diagram Description**: Physical Data Model (DIV-3): Oracle database schema showing two main tables - OCR_TEXTRACT_DATA (with columns for each question's AI answers, confidence scores, evidence JSON) and TERAMEMOUPLOADMETRICS (tracking VSR submissions and model performance)
+
+![Physical Data Model (DIV-3): Oracle database schema showing two main tables - OCR_TEXTRACT_DATA (with columns for each question's AI answers, confidence scores, evidence JSON) and TERAMEMOUPLOADMETRICS (tracking VSR submissions and model performance)](docs/images/page_13_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -801,7 +922,18 @@ Main Business Process Model (OV-6d
 
 **Diagram 1**:
 
-![Diagram 1 from page 14](docs/images/page_14_diagram_1.png)
+
+**Diagram Description**: Business Process Model (OV-6d): Two-phase deployment showing Phase 1 Nightly Batch (9 steps from document identification to model execution) and Phase 2 VSR Interactive (13 steps from login to TERA completion)
+
+![Business Process Model (OV-6d): Two-phase deployment showing Phase 1 Nightly Batch (9 steps from document identification to model execution) and Phase 2 VSR Interactive (13 steps from login to TERA completion)](docs/images/page_14_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
@@ -817,11 +949,33 @@ The below diagram outlines the interactions between functional resources.
 
 **Diagram 1**:
 
-![Diagram 1 from page 15](docs/images/page_15_diagram_1.png)
+
+**Diagram Description**: Process Sequence Event Trace (SV-10c): Sequence diagram with 20+ interactions between VSR, TERA UI, Claims Evidence API, VBMS DB, DocGen API, and eFolder showing complete auto-populate and submit flow with timing (500ms queries, 2-3sec PDF gen)
+
+![Process Sequence Event Trace (SV-10c): Sequence diagram with 20+ interactions between VSR, TERA UI, Claims Evidence API, VBMS DB, DocGen API, and eFolder showing complete auto-populate and submit flow with timing (500ms queries, 2-3sec PDF gen)](docs/images/page_15_diagram_1.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 **Diagram 2**:
 
-![Diagram 2 from page 15](docs/images/page_15_diagram_2.png)
+
+**Diagram Description**: Feature Flag Configuration: Decision tree with master flag TERA_MEMO_ENABLED branching to MODERNIZED_FORM, AUTO_POPULATE (with sub-flags for questions 1,3,4,6), METRICS, ANNOTATOR_VIEW, and multipleHighlights flags
+
+![Feature Flag Configuration: Decision tree with master flag TERA_MEMO_ENABLED branching to MODERNIZED_FORM, AUTO_POPULATE (with sub-flags for questions 1,3,4,6), METRICS, ANNOTATOR_VIEW, and multipleHighlights flags](docs/images/page_15_diagram_2.png)
+
+<details>
+<summary>📊 View detailed text description of this diagram</summary>
+
+For a complete textual description of this diagram that GitHub Copilot can understand, see the [DIAGRAMS_DESCRIBED.md](./DIAGRAMS_DESCRIBED.md) file.
+
+</details>
+
 
 ---
 
